@@ -5,6 +5,5 @@
 //  This fragment is called by /admin/index.php
 ////////////////////////////////////////////////////////////////////////////////
 
-$module->version  = 2009091800;
-
-?>
+$module = new stdClass();
+$module->version  = 2016061500;
