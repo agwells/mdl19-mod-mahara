@@ -49,7 +49,7 @@ function can_view_view($viewid, $username, $submission, $iscollection) {
         return false;
     }
 
-    if (!($cm = get_coursemodule_from_id('assignment', $submission->assignment))) {
+    if (!($cm = get_coursemodule_from_instance('assignment', $submission->assignment))) {
         // Bad assignment ID.
         return false;
     }
